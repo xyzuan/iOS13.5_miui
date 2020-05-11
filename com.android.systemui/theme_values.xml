@@ -6,64 +6,55 @@
 -->
 <MIUI_Theme_Values>
 
-<string name="qs_control_header_tiles_title"></string>
-<string name="fmt_time_24hour_minute" package="miui">HH:mm</string>
-<string name="status_bar_clock_date_format_12">h:mm aa</string>
-<string name="status_bar_clock_date_format">H:mm</string>
-<string name="status_bar_clock_date_time_format">H:mm</string>  
-<string name="status_bar_clock_date_format">EEE. d MMMM</string>
-<string name="status_bar_clock_date_format_12">EEE. d MMMM</string>
-<string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
-<string name="fmt_time_12hour_minute_pm" package="miui">h:mm aa</string>
+    <!-- Strings Configs -->
+		<string name="qs_control_header_tiles_title"></string>
+		<string name="fmt_time_24hour_minute" package="miui">HH:mm</string>
+		<string name="status_bar_clock_date_format_12">h:mm aa</string>
+		<string name="status_bar_clock_date_format">H:mm</string>
+		<string name="status_bar_clock_date_time_format">H:mm</string>  
+		<string name="status_bar_clock_date_format">EEE. d MMMM</string>
+		<string name="status_bar_clock_date_format_12">EEE. d MMMM</string>
+		<string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
+		<string name="fmt_time_12hour_minute_pm" package="miui">h:mm aa</string>
 
-<dimen name="notch_carrier_display_mode_threshold">102.0dip</dimen>
-<dimen name="notch_height">100.0dip</dimen>
-<dimen name="notch_icon_margin_end">3.0dip</dimen>
-<dimen name="notch_prompt_margin_start">22.5dip</dimen>
-<dimen name="notch_prompt_margin_top">5.0dip</dimen>
-<dimen name="notch_prompt_max_width">46.0dip</dimen>
-<dimen name="notch_settings_button_margin">7.0dip</dimen>
-<dimen name="notch_status_bar_margin_end">8.0dip</dimen>
-<dimen name="notch_status_bar_padding_top">3.0dip</dimen>
-<dimen name="notch_width">-100.0dip</dimen>
-<dimen name="notch_status_bar_margin_end">50.0dip</dimen>
-<dimen name="notch_status_bar_padding_top">0.0dip</dimen>
-<dimen name="status_bar_airplane_spacer_width">13.0dip</dimen>
-<dimen name="status_bar_battery_icon_height">17.0dip</dimen>
-<dimen name="status_bar_battery_icon_width">16.0dip</dimen>
-<dimen name="status_bar_clock_size">13.5dip</dimen>
-<dimen name="status_bar_clock_end_padding">0.0dip</dimen>
-<dimen name="status_bar_clock_starting_padding">5.0dip</dimen>
-<dimen name="status_bar_icon_size">13.0dip</dimen>
-<dimen name="status_bar_notification_icon_padding">2.5dip</dimen>
-<dimen name="status_bar_notification_icon_radius">11.4499817dip</dimen>
-<dimen name="status_bar_wifi_signal_spacer_width">0.0dip</dimen>
-<dimen name="statusbar_battery_digit_size">8.0dip</dimen>
-<dimen name="statusbar_battery_percent_margin_end">1.0dip</dimen>
-<dimen name="statusbar_battery_percent_margin_start">2.0dip</dimen>
-<dimen name="statusbar_battery_size">11.5dip</dimen>
-<dimen name="statusbar_battery_text_bottom_padding">3.5dip</dimen>
-<dimen name="statusbar_carrier_max_width">116.0dip</dimen>
-<dimen name="statusbar_carrier_size">11.0dip</dimen>
-<dimen name="statusbar_cdma_carrier_size">10.0dip</dimen>
-<dimen name="statusbar_padding_end">11.0dip</dimen>
-<dimen name="statusbar_padding_start">11.0dip</dimen>
-<dimen name="status_bar_padding_start">11.0dip</dimen>
-<dimen name="statusbar_signal_size">000000000000.1dp</dimen>
-<dimen name="navigation_gesture_line_height">2.5dp</dimen>
-<dimen name="navigation_gesture_line_width">70dp</dimen>
-<dimen name="navigation_handle_bottom">8dp</dimen>
+    <!-- Dimens Configs -->
+		<dimen name="status_bar_airplane_spacer_width">13.0dip</dimen>
+		<dimen name="status_bar_battery_icon_height">17.0dip</dimen>
+		<dimen name="status_bar_battery_icon_width">16.0dip</dimen>
+		<dimen name="status_bar_clock_size">13.5dip</dimen>
+		<dimen name="status_bar_clock_end_padding">0.0dip</dimen>
+		<dimen name="status_bar_clock_starting_padding">5.0dip</dimen>
+		<dimen name="status_bar_icon_size">13.0dip</dimen>
+		<dimen name="status_bar_notification_icon_padding">2.5dip</dimen>
+		<dimen name="status_bar_notification_icon_radius">11.4499817dip</dimen>
+		<dimen name="status_bar_wifi_signal_spacer_width">0.0dip</dimen>
+		<dimen name="statusbar_battery_digit_size">8.0dip</dimen>
+		<dimen name="statusbar_battery_percent_margin_end">1.0dip</dimen>
+		<dimen name="statusbar_battery_percent_margin_start">2.0dip</dimen>
+		<dimen name="statusbar_battery_size">11.5dip</dimen>
+		<dimen name="statusbar_battery_text_bottom_padding">3.5dip</dimen>
+		<dimen name="statusbar_carrier_max_width">116.0dip</dimen>
+		<dimen name="statusbar_carrier_size">11.0dip</dimen>
+		<dimen name="statusbar_cdma_carrier_size">10.0dip</dimen>
+		<dimen name="statusbar_padding_end">11.0dip</dimen>
+		<dimen name="statusbar_padding_start">11.0dip</dimen>
+		<dimen name="status_bar_padding_start">11.0dip</dimen>
+		<dimen name="statusbar_signal_size">000000000000.1dp</dimen>
+		<dimen name="navigation_gesture_line_height">2.5dp</dimen>
+		<dimen name="navigation_gesture_line_width">70dp</dimen>
+		<dimen name="navigation_handle_bottom">8dp</dimen>
+		<dimen name="panel_content_corner_radius">80.0dp</dimen>
 
-<dimen name="panel_content_corner_radius">80.0dp</dimen>
-<dimen name="qs_tile_icon_size">40.0dp</dimen>
+    <!-- Colors Configs -->
+		<color name="status_bar_clock_color">#00000000</color>
+		<color name="clock_text_color">#00000000</color>
+		<color name="clock_white">#00000000</color>
+		<color name="full_smart_cover_date_color">#00000000</color>
 
-<color name="status_bar_clock_color">#00000000</color>
-<color name="clock_text_color">#00000000</color>
-<color name="clock_white">#00000000</color>
-<color name="full_smart_cover_date_color">#00000000</color>
+    <!-- Items Configs -->
+		<item type="dimen" name="status_bar_height">30.0dip</item>
 
-<item type="dimen" name="status_bar_height">30.0dip</item>
-
-<bool name="battery_meter_progress_gravity_start">true</bool>
+    <!-- Bools Configs -->
+		<bool name="battery_meter_progress_gravity_start">true</bool>
 
 </MIUI_Theme_Values>
