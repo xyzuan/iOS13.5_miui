@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<Icon version="1" frameRate="20" width="182" height="182" screenWidth="1080" useVariableUpdater="DateTime">
+<Var name="t1" expression="#time_sys%60000"/>
+<Var name="m_angle" expression="(#minute-1)*6" threshold="6">
+	<Trigger>
+		<Command target="m_angle_day_anim.animation" value="play"/>
+	</Trigger>
+</Var>
+<Image x="91" y="91" align="center" alignV="center" src="clock.png" />
+<Image x="91" y="91" align="center" alignV="center" centerX="91" centerY="91" src="hour.png" antiAlias="true" angle="#hour12*30+#minute/2"/>
+<Image name="m_angle_day_anim" x="91" y="91" antiAlias="true" centerX="91" centerY="91" angle="#m_angle" src="minute.png" align="center" alignV="center" >
+	<RotationAnimation>
+		<Rotation angle="0" time="0"/>
+		<Rotation angle="6" time="250"/>
+		<Rotation angle="6" time="100000000000"/>
+		</RotationAnimation>
+</Image>
+<Image x="91" y="91" antiAlias="true" centerX="91" centerY="91" angle="#t1*0.006"  src="second.png" align="center" alignV="center" />  
+</Icon>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+ *
+ * Copyright (c) 2020, xyzscape prjkt
+ *
+-->
+<MIUI_Theme_Values>
+
+<string name="app_name">TV</string>
+
+</MIUI_Theme_Values>

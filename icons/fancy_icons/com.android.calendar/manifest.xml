@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" frameRate="0" width="192" height="192" resDensity="480" extraResources="sw720-den320::0.7059,sw1080-den440::0.8823,sw1440-den640::1.1765" extraScales="sw720-den320:0.7083,sw1080-den440:0.875,sw1440-den640:1.1667" useVariableUpdater="DateTime.Day">
+	<VariableBinders>
+		<BroadcastBinder action="android.intent.action.TIME_SET" />
+		<BroadcastBinder action="android.intent.action.DATE_CHANGED" />
+	</VariableBinders>
+
+	<Group pivotX="96" pivotY="96">
+		<Image x="0" y="0" src="icon_bg.png" />
+  <Datetime x="96" y="40" align="center" alignV="center" color="#ffff0000" size="30" format="EEEE" />
+		<ImageNumber x="96" y="40" align="center" src="time.png" number="#date"/>
+	</Group>
+</Icon>

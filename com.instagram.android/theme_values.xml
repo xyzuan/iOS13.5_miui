@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+
+<color name="grey_0">#ffd7d7d7</color> 
+<color name="white" package="android">#ffd7d7d7</color>
+<color name="white_opaque">#ffd7d7d7</color> <color name="white">#ffd7d7d7</color> <color name="solid_white">#ffd7d7d7</color> 
+<color name="status_bar_background_light_semitransparent">#ffd7d7d7</color> <color name="status_bar_background">#ffd7d7d7</color> 
+<color name="grey_3">#ffa4a4a4</color> <color name="bugreporter_update_warning_background">#ffa4a4a4</color> 
+<color name="zero_rating_data_banner_color">#ff007aff</color> <color name="tabbar_black">#ff007aff</color> <color name="grey_9">#ff007aff</color> 
+<color name="polling_options_divider_color">#ffffff</color> <color name="browser_more_menu_divider_color">#ffffff</color> 
+
+</MIUI_Theme_Values>

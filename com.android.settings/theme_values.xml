@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Values>
+
+<!-- DEVELOPED BY COSTANTINO MOD-->
+
+<string name="xiaomi_account">iCloud
+</string>
+<string name="my_device">My iPhone</string>
+
+<string name="wifi_tether_settings_title">Personal Hotspot</string>
+<string name="home_title">Home Screen</string>
+<string name="lock_screen_display_category_name">Face ID &amp; Passcode</string>
+<string name="lock_screen_settings_title">Face ID &amp; Passcode</string>
+<string name="sound_vibrate_settings">Sounds &amp; Haptics</string>
+<string name="do_not_disturb_mode">Do Not Disturb</string>
+<string name="usage_state_app_timer">Screen Time</string>
+<string name="display_settings">Display &amp; Brightness</string>
+<string name="other_advanced_settings">General</string>
+<string name="wallpaper_settings_title">Wallpaper</string>
+<string name="sim_management_title">Cellular</string>
+<string name="feedback_settings">Feedback</string>
+<string name="password_security_settings_title">Passwords &amp; Security</string>
+<string name="sync_settings">Accounts &amp; Sync</string>
+<string name="miui_special_feature">Special Features</string>
+<string name="security_status">Apple ID suggestions</string>
+<string name="power_usage_summary_title">Battery</string>
+<string name="power_usage_summary_title_new">Battery</string>
+<string name="date_and_time_settings_title">Date &amp; Time</string>
+<string name="language_keyboard_settings_title">Languages &amp; Input</string>
+<string name="language_settings">Languages &amp; Input</string>
+<string name="infinity_display_title">Full Screen Display</string>
+<string name="key_shortcut_settings_title">Button Shortcuts</string>
+<string name="led_settings">Notification Light</string>
+<string name="touch_assistant">AssistiveTouch</string>
+<string name="handy_mode">One-Handed mode</string>
+<string name="development_settings_title">Developer Options</string>
+<string name="quick_reply_title">Quick Replies</string>
+<string name="second_space">Second Space</string>
+<string name="miui_lab_settings">MIUI Lab</string>
+<string name="system_app_settings">System Apps</string>
+<string name="applications_settings">Manage Apps</string>
+<string name="xspace">Dual Apps</string>
+<string name="application_lock_name">App Lock</string>
+<string name="device_miui_version">iOS Version</string>
+<string name="wifi_settings">Wi-Fi</string>
+<string name="wifi_settings_category">Wi-Fi Settings</string>
+<string name="wifi_settings_title">Wi-Fi</string>
+<string name="wifi_quick_toggle_title">Wi-Fi</string>
+<string name="wifi_setup_wizard_title">Select Wi-Fi</string>
+<string name="wifi_select_network">Select Wi-Fi</string>
+<string name="wifi_starting">Turning Wi-Fi on</string>
+<string name="wifi_stopping">Turning off Wi-Fi</string>
+<string name="wifi_quick_toggle_summary">Turn on Wi-Fi</string>
+<string name="search_cloud_restore_section_title">Restore from iCloud;iCloud;iCloud backups</string>
+<string name="search_micloud">Sync;iCloud;iCloud sync;Sync with iCloud</string>
+<string name="xiaomi_cloud_service_description">iCloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find iPhone.</string>
+
+<string name="login_account_dialog_title">Sign in your iPhone</string>
+<string name="login_account_summary">Apple ID, iCloud, iTunes &amp; App Store</string>
+<string name="login_action">Sign in</string>
+<dimen name="preference_account_avatar_size">40.0dip</dimen>
+<color name="toggle_color">#00000000</color>
+</MIUI_Theme_Values>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Icon version="1" frameRate="0" width="182" height="182" screenWidth="1080" resDensity="480" extraResourcesDensity="320,440,480,640" extraResources="sw1536-den320:den440:1" extraScaleByDensity="320:0.6703,440:0.9231,640:1.2307" extraScales="sw1536-den320:0.9231">
+    	<VariableBinders>
+	<ContentProviderBinder uri="content://weather/weather" columns="city_name,temperature,temperature_range,description,weather_type" countName="hasweather">
+	<Variable name="weather_id" type="int" column="weather_type"/>
+  <Variable name="weather_location" type="string" column="city_name"/>
+ <Variable name="weather_temperature" type="int" column="temperature"/>
+	<Variable name="weather_temperature_range" type="string" column="temperature_range"/>
+  <Variable name="weather_description" type="string" column="description"/>
+  </ContentProviderBinder>
+	</VariableBinders><ExternalCommands>
+		<!-- 初始化 -->
+		<Trigger action="init,present,back_home_cancel">
+			<AnimationCommand target="iconAni" command="play(1600,1600)"/>
+			<VariableCommand name="useQuietImage" expression="1"/>
+		</Trigger>
+		<!-- 回桌面 -->
+		<Trigger action="back_home_start" >
+			<AnimationCommand target="iconAni" command="play(0,0)"/>
+			<VariableCommand name="useQuietImage" expression="0"/>
+		</Trigger>
+		<!-- 回到桌面 -->
+		<Trigger action="back_home_finish">
+			<VariableCommand name="useQuietImage" expression="0"/>
+			<!-- 动画部分 -->
+			<AnimationCommand target="iconAni" command="play"/>
+		<!-- 动态帧率 -->
+            <AnimationCommand target="panel_framerate_controller" command="play"/>
+        </Trigger>
+    </ExternalCommands>
+    <FramerateController name="panel_framerate_controller" initPause="true" loop="false">
+        <ControlPoint frameRate="0" time="0"/>
+        <ControlPoint frameRate="60" time="1"/>
+        <ControlPoint frameRate="60" time="3000"/>
+        <ControlPoint frameRate="0" time="3001"/>
+    </FramerateController>
+<Var name="iconAni">
+		<VariableAnimation name="iconAnimation" initPause="true" loop="false">
+			<AniFrame value="0" time="0" easeType="QuadEaseOut"/>
+			<AniFrame value="1" time="1600"/>
+			<Triggers>
+				<Trigger action="end" condition="#iconAnimation.current_frame == 1600">
+					<VariableCommand name="useQuietImage" expression="1"/>
+				</Trigger>
+			</Triggers>
+		</VariableAnimation>
+	</Var>
+
+	<Image x="91" y="91" align="center" alignV="center" src="bg.png" />
+	
+	<Image x="91-10+10*#iconAni" y="91+15-15*#iconAni"  align="center" alignV="center" src="ty.png"/><Image x="91+21-21*#iconAni" y="91" align="center" alignV="center" src="yun.png" alpha="255*#iconAni"/>
+<Text format="%s°C" paras="#weather_temperature" x="98" y="39" size="26" bold="true" align="center" alignV="center" alpha="255*#iconAni"color="#99ffffff"/></Icon>
